@@ -1,0 +1,8 @@
+﻿using DeliverysetService.Library.Enums;
+
+namespace DeliverysetService.Library.Services.DeliverysetFileDetectChangesHandlerStrategy;
+
+public interface IDeliverysetFileDetectChangesHandlerFactory
+{
+    IDeliverysetFileDetectChangesHandler GetDeliverysetFileCopyHandler(DeliverysetChange deliverySetChange);
+}
